@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/print/src/app/page.js"],"sourcesContent":["\"use Client\";\nimport { useRouter } from \"next/navigation\";\n\nexport default function Home() {\n  const router = useRouter();\n  const handleClick = () =>{\n    router.push(\"/login\");\n  }\n  return (\n    <>\n      <h1>landing page </h1>\n      <button onClick={handleClick}>Lets started</button>\n    \n    </>\n  );\n}\n"],"names":[],"mappings":";;;;AACA;AAAA;AADA;;;AAGe,SAAS;IACtB,MAAM,SAAS,CAAA,GAAA,qLAAA,CAAA,YAAS,AAAD;IACvB,MAAM,cAAc;QAClB,OAAO,IAAI,CAAC;IACd;IACA,qBACE;;0BACE,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;gBAAO,SAAS;0BAAa;;;;;;;;AAIpC","debugId":null}}]
-}
