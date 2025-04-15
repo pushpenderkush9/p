@@ -21,7 +21,7 @@ export default function Home() {
       width={100}
       height={50}
       />
-      <button onClick={()=>{}} className="bg-[#FF9149] font-bold  text-2xl p-3 border rounded-2xl">Login</button>
+      <button onClick={handleClick} className="bg-[#FF9149] font-bold  text-2xl p-3 border rounded-2xl">Login</button>
       </div>
       <div className="justify-ceneter m-5 items-center text-center ">
       <Carousel/>
